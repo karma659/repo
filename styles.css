@@ -1,0 +1,211 @@
+html {
+   font-size: 62.5%;
+}
+
+.tpimg {
+   margin-top: 1rem;
+   text-align: center;
+}
+#nimg {
+   height: 2.5rem;
+   width: 8rem;
+}
+.navbar {
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 0.1rem solid #00000029;
+}
+.navbar-nav > a {
+   margin: 0 2rem 0 2rem;
+}
+.ds {
+   justify-content: space-around;
+}
+.part2 {
+   background: #ffffff 0% 0% no-repeat;
+   background-image: url("public/wave.svg");
+   background-repeat: no-repeat;
+}
+
+.leftpt2 {
+   margin: 0 1rem 0 5rem;
+   padding: 5rem;
+   width: 50%;
+}
+.first {
+   font-weight: 600;
+   padding-bottom: 2rem;
+}
+
+.btn1 {
+   background: #1492e6 0% 0% no-repeat padding-box;
+   border-radius: 5rem;
+   color: white;
+   border: none;
+   margin: 2rem 0 0 0;
+   padding: 1rem 2rem 1rem 2rem;
+}
+#rightt {
+   height: 30rem;
+   width: 30rem;
+}
+.rightpt2 {
+   padding: 0 2rem 0 3rem;
+   width: 40%;
+}
+.dd {
+   text-align: center;
+   padding: 7rem 0 2rem 0;
+   background: #f8fafc;
+}
+.Recently {
+   padding: 5rem 10rem 0 10rem;
+   display: flex;
+   justify-content: space-evenly;
+   background: #f8fafc 0% 0% no-repeat;
+}
+.Recently .card {
+   border-radius: 1rem;
+   box-shadow: 0px 3px 6px #00000029;
+   padding: 1rem;
+   width: 25rem;
+}
+.card-title {
+   text-align: center;
+}
+.Recently2 .card {
+   border: none;
+   background: transparent;
+   padding: 1rem;
+   width: 25rem;
+}
+
+.Recently2 {
+   padding: 5rem 10rem 0 10rem;
+   display: flex;
+   justify-content: space-evenly;
+
+   background-image: url("public/wave\ \(2\).svg");
+   background-repeat: no-repeat;
+}
+
+.dd3 {
+   text-align: center;
+
+   padding: 7rem 0 4rem 0;
+}
+.Recently3 {
+   display: flex;
+   flex-direction: column;
+}
+
+.upp {
+   display: flex;
+}
+
+.Recently3 .card {
+   width: 50em;
+   height: 16rem;
+   padding-left: 10rem;
+   padding-right: 6rem;
+   border: none;
+}
+
+.Recently3 .card:nth-of-type(even) {
+   float: right;
+
+   align-self: flex-end;
+}
+
+.upp .card-img-top {
+   height: 5rem;
+   width: 5rem;
+}
+.upp > h4 {
+   padding: 1.2rem 0 0 1rem;
+}
+
+.Recently4 {
+   margin: 2rem 2rem 1rem 2rem;
+   display: flex;
+   justify-content: space-evenly;
+   row-gap: 2rem;
+}
+.Recently4 .card {
+   width: 25rem;
+   padding: 0.1rem 2rem 0.1rem 2rem;
+   border-radius: 1rem;
+}
+
+.sup {
+   margin: 5rem 5rem 15rem 5rem;
+   border-radius: 1rem;
+   box-shadow: 0px 3px 6px #00000029;
+   background-color: #f8fafc;
+   height: 20rem;
+}
+.sup .Recently4 .card {
+   margin: 2rem;
+}
+.rside {
+   padding-left: 1rem;
+}
+
+.rside span {
+   padding: 0 0.1rem 0.1rem 0.2rem;
+   color: gold;
+}
+.dd1 .upp {
+   padding: 2rem 0 0 5rem;
+}
+
+.sup .Recently4 .card .rounded-circle {
+   height: 4rem;
+   width: 4rem;
+}
+.gee {
+   margin: 0 0 25rem 0;
+}
+.sup .Recently4 .card-body > p {
+   padding: 2rem 0.1rem 0.1rem 0.1rem;
+}
+
+.dd4 {
+   text-align: center;
+   margin-top: 13rem;
+   padding: 10rem 0 2rem 0;
+}
+
+.Recently5 {
+   margin: 5rem 10rem 15rem 10rem;
+   display: flex;
+   justify-content: space-evenly;
+}
+.Recently5 .card {
+   border: none;
+   padding: 1rem;
+   width: 20rem;
+   background: transparent;
+   opacity: 100%;
+}
+
+.footer {
+   margin-top: 10rem;
+   background-color: #000000;
+   text-align: center;
+   padding: 11rem 2rem 1rem 2rem;
+   height: 15rem;
+   color: #ffffff;
+}
+
+@media (max-width: 998px) {
+   html {
+      font-size: 55%;
+   }
+}
+@media (max-width: 768px) {
+   html {
+      font-size: 35%;
+   }
+}
